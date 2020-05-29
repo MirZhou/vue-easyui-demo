@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "menuName": "服务一体化",
+    "menuCode": "service",
+    "sortValue": 1,
+    "children": [{
+        "id": 2,
+        "menuName": "服务管理",
+        "menuCode": "service:manage",
+        "sortValue": 1
+      },
+      {
+        "id": 3,
+        "menuName": "套餐管理",
+        "menuCode": "service:package",
+        "sortValue": 2
+      },
+      {
+        "id": 4,
+        "menuName": "服务变更设置",
+        "menuCode": "service:change_setting",
+        "sortValue": 3
+      },
+      {
+        "id": 5,
+        "menuName": "服务日志",
+        "menuCode": "service:log",
+        "sortValue": 4
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "menuName": "系统管理",
+    "menuCode": "system",
+    "sortValue": 2,
+    "children": [{
+        "id": 7,
+        "menuName": "菜单管理",
+        "menuCode": "system:menu",
+        "sortValue": 1
+      },
+      {
+        "id": 8,
+        "menuName": "角色管理",
+        "menuCode": "system:role",
+        "sortValue": 2
+      },
+      {
+        "id": 9,
+        "menuName": "用户管理",
+        "menuCode": "system:user",
+        "sortValue": 3
+      }
+    ]
+  }
+]
